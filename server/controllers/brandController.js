@@ -1,5 +1,5 @@
 class BrandController {
-  async registration(req,res) {
+  async create(req,res) {
 
   }
 
