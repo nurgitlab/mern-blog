@@ -7,7 +7,8 @@ import {observer} from "mobx-react-lite";
 
 const NavBar = observer(() => {
   const {user} = useContext(Context)
-  const navigate = useNavigate()
+  let navigate = useNavigate()
+
   return (
     <Navbar bg="dark" variant="dark">
       <Container>
