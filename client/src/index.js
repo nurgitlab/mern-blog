@@ -1,6 +1,6 @@
 import React, {createContext} from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
+import {App} from './App';
 import UserStore from "./store/UserStore";
 import DeviceStore from "./store/DeviceStore";
 
@@ -13,6 +13,6 @@ root.render(
     user: new UserStore(),
     device: new DeviceStore()
   }}>
-    <App />
+    <App/>
   </Context.Provider>
 );
